@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+h2 {
+  margin: 0;
+}
+p {
+  border-bottom: solid 1px #111;
+  margin-bottom: 0px;
+}
+
+hr {
+  width: 100%;
+}
